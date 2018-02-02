@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSL Scouting Portal</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- CSS stylesheet -->
+    <link rel=StyleSheet href="custom.css" type="text/css">
+    <!-- Javascript file -->
+    <script type="text/javascript" src="app.js"></script>
+    <!-- Font Awesome CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  </head>
+
+  <body ontouchstart="">
+    <div class="container-fluid text-center"> <!-- Start of Container -->
+      <form action="action_page.php">
+        <div class="imgcontainer">
+          <img src="csl_logo.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+          <label><b>Username</b></label>
+          <!-- <input type="text" placeholder="Enter Username" name="uname" id="uname" required>-->
+          <select id="selectTeam">
+            <option>Choose a Team...</option>
+          </select>
+
+          <label><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="pwd" required>
+
+          <button type="submit" onclick="logInToDashboard()">Login</button>
+          <label>
+            <input type="checkbox" checked="checked"> Remember me
+          </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div> <!-- End of Container -->
+  </body>
+</html>
