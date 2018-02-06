@@ -58,6 +58,10 @@ span.psw {
     padding-top: 16px;
 }
 
+#team_logo {
+  margin: 5px;
+}
+
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
     span.psw {

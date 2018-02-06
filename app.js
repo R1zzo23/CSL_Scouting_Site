@@ -19,12 +19,7 @@ function logInToDashboard() {
   var userName = document.getElementById('uname').value;
   var password = document.getElementById('pwd').value;
 
-  console.log("userName = " + userName);
-  console.log("password = " + password);
-
   if (userName == "R1zzo23" && password == "jordan"){
-    //window.location.href = "dashboard.html";
-    //window.open("dashboard.html");
     window.open("https://r1zzo23.github.io/CSL_Scouting_Site/dashboard.html");
   }
 }
