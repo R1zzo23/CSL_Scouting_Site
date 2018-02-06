@@ -3,7 +3,7 @@
 
 
 $(document).ready(function() {
-  var select = document.getElementById("selectTeam");
+  /*var select = document.getElementById("selectTeam");
   var teamList = ["Atlanta Hawks", "Boston Celtics", "Brooklyn Nets", "Charlotte Hornets"];
 
   for(var i = 0; i < teamList.length; i++) {
@@ -12,7 +12,7 @@ $(document).ready(function() {
     el.textContent = opt;
     el.value = opt;
     select.appendChild(el);
-  }​
+  }​*/
 });
 
 function logInToDashboard() {
