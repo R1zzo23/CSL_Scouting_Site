@@ -25,6 +25,6 @@ function logInToDashboard() {
   if (userName == "R1zzo23" && password == "jordan"){
     //window.location.href = "dashboard.html";
     //window.open("dashboard.html");
-    window.open("https://r1zzo23.github.io/dashboard.html/");
+    window.open("https://r1zzo23.github.io/CSL_Scouting_Site/dashboard.html");
   }
 }
