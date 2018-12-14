@@ -1,0 +1,7 @@
+[
+  { "username" : "Rizzo", "password" : "jordan", "rank" : "admin" },
+  { "username" : "Kyrus", "password" : "houston",  "rank" : "admin" },
+  { "username" : "Dennis", "password" : "boston", "rank" : "manager" },
+  { "username" : "Jon", "password" : "detroit", "rank" : "manager" },
+  { "username" : "Sun Scorched", "password" : "phoenix", "rank" : "manager" }
+]
