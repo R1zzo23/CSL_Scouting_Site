@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html><head><title>SBA Online</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--
+    Bootstrap
+    Bootstrap Slider - Adds sliders to Strategies
+    Bootstrap Toggle - Adds toggle to Admin - Prediction Forms
+-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/css/bootstrap-slider.min.css">
+<link rel="stylesheet" href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/login.js"></script>
+<style>
+body{margin:0;padding:0;}
+a{}
+img.logo{width:50px;height:50px;}
+img.logo2{width:80px;height:80px;}
+
+#loginLeagueName {
+  color: #337AB7;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+.dropdown-submenu.pull-left {
+    float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+.slider-selection {
+    background: #BABABA;
+}
+.margright10 {
+    margin-right:300px;
+}
+</style>
+</head>
+<!-- Body Start -->
+<body class="bg-info">
+  <div class="container">
+    <div class="row" style="margin-top:20px;">
+      <div class="col-xs-3"></div>
+      <form class="form-horizontal col-xs-6" action="/checklogin.php" method="POST">
+        <div class="panel panel-primary">
+          <div class="panel-heading">CSL Scouting Tool Login</div>
+          <div class="panel-body">
+            <div class="form-group">
+              <center><h1 id='loginLeagueName'>Championship Sim League</h1></center>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-4" for="user"><b>Username:</b></label>
+              <div class="col-sm-4">
+                <input type="text" placeholder="Enter Username" name="user" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-4" for="password"><b>Password:</b></label>
+              <div class="col-sm-4">
+                <input type="password" placeholder="Enter Password" name="password" class="form-control" required>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-login btn-block btn-primary" id="login"><span class="glyphicon glyphicon-off"></span>Login</button>
+          </div>
+          <div class="panel-footer">
+            <div class='footer' width='90%'><center><p>&copy; Copyright 2018.  All Rights Reserved.</p></div>
+          </div>
+      </form>
+      <div class="col-xs-3"></div>
+    </div>
+  </div>
+</body>
+<!-- Body End -->
+
+<!-- Footer Start -->
+<!-- Footer End -->
+
+</html>
